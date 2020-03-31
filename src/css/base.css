@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,600&display=swap");
+@import url("https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, span, a, img, blockquote, cite, table {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-18px);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.bg-strong-cyan {
+    background: var(--color-strong-cyan);
+    border: 0px;
+    border-bottom: 3px solid #16a085;
+    box-shadow: -1px 17px 47px -16px rgba(22, 160, 133, 1);
+}
+
+.bg-light-blue {
+    background: var(--color-light-blue);
+    border: 0px;
+    border-bottom: 3px solid #3867d6;
+    box-shadow: -1px 17px 47px -16px rgba(56, 103, 214, 0.25);
+}
+
+:root {
+    /* font */
+    --font-family: 'Bai Jamjuree', sans-serif;
+    /* font-size */
+    --font-12px: 12px;
+    --font-16px: 1rem;
+    --font-18px: 1.125rem;
+    --font-20px: 20px;
+    --font-24px: 1.5rem;
+    --font-32px: 2rem;
+    --font-40px: 2.5rem;
+    --font-48px: 3rem;
+    --font-56px: 3.5rem;
+    --font-64px: 4rem;
+    --font-72px: 4.5rem;
+    --font-80px: 5rem;
+    --font-88px: 5.5rem;
+    --font-96px: 6rem;
+    --font-104px: 6.5rem;
+    --font-112px: 7rem;
+    /* colors */
+    --color-strong-cyan: hsl(171, 66%, 44%);
+    --color-light-blue: hsl(233, 100%, 69%);
+    --color-dark-grayish-blue: hsl(210, 10%, 33%);
+    --color-grayish-blue: hsl(201, 11%, 66%);
+    --color-light: #ffffff;
+}

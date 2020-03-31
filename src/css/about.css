@@ -1,0 +1,116 @@
+.about-row {
+    display: flex;
+    padding-bottom: var(--font-20px);
+}
+
+.about-image .image {
+    margin-left: -30px;
+}
+
+.content-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: -30px;
+    padding-top: var(--font-64px);
+    width: 380px;
+}
+
+.about-info__content1 {
+    padding-bottom: var(--font-48px);
+}
+
+.about-info__content1 .title {
+    font-size: var(--font-24px);
+    font-weight: 600;
+    color: var(--color-dark-grayish-blue);
+}
+
+.about-info__content1 .text {
+    color: var(--color-grayish-blue);
+    padding-top: var(--font-20px);
+}
+
+.about-info__content2 {
+    padding-bottom: var(--font-48px);
+}
+
+.about-info__content2 .title {
+    font-size: var(--font-24px);
+    font-weight: 600;
+    color: var(--color-dark-grayish-blue);
+}
+
+.about-info__content2 .text {
+    color: var(--color-grayish-blue);
+    padding-top: var(--font-20px);
+}
+
+.about-info__content3 {
+    padding-bottom: 0;
+}
+
+.about-info__content3 .title {
+    font-size: var(--font-24px);
+    font-weight: 600;
+    color: var(--color-dark-grayish-blue);
+}
+
+.about-info__content3 .text {
+    color: var(--color-grayish-blue);
+    padding-top: var(--font-20px);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0;
+    }
+    .about-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-image {
+        padding: 0 var(--font-32px);
+    }
+    .about-image .image {
+        margin: 0px;
+    }
+    .content-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: var(--font-64px) 0;
+        text-align: center;
+        margin-left: 0;
+    }
+    .about-info {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about-row {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image {
+        padding: 0 var(--font-20px);
+    }
+    .about-image .image {
+        margin: 0px;
+    }
+    .content-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: var(--font-96px) var(--font-32px) 0 var(--font-32px);
+    }
+
+    .content-about .text {
+        line-height: 28px;
+    }
+}

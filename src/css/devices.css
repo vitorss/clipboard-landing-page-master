@@ -1,0 +1,12 @@
+.content-devices {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .content-devices {
+        padding-top: 0;
+        padding-bottom: var(--font-56px);
+    }
+}
